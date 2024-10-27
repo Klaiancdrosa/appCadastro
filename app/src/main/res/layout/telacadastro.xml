@@ -1,0 +1,131 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_ocean_blue"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/caixa_de_fundo"
+        android:backgroundTint="@color/ocean_blue"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:ems="3"
+            android:inputType="text"
+            android:background="@color/white"
+            android:paddingHorizontal="10dp"
+            android:text="Username"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginLeft="80dp"
+            android:ems="3"
+            android:inputType="text"
+            android:background="@color/white"
+            android:paddingHorizontal="10dp"
+            android:text="Nome"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtSenha2"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="238dp"
+            android:ems="3"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="Re-Password" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="168dp"
+            android:ems="3"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="Password" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="53dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/username" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="53dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/usernamen" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="54dp"
+            android:layout_marginTop="165dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/password" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="54dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="48dp"
+            app:srcCompat="@drawable/passwordn" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/alatsi"
+        android:text="Cadastrar"
+        android:textColor="@color/white"
+        android:textSize="43dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
